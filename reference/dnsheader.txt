@@ -1,0 +1,37 @@
+###[ DNS ]###
+  id        = 52464
+  qr        = 1
+  opcode    = QUERY
+  aa        = 1
+  tc        = 0
+  rd        = 1
+  ra        = 1
+  z         = 0
+  ad        = 0
+  cd        = 0
+  rcode     = name-error
+  qdcount   = 1
+  ancount   = 0
+  nscount   = 1
+  arcount   = 0
+  \qd        \
+   |###[ DNS Question Record ]###
+   |  qname     = '254.1.30.172.in-addr.arpa.'
+   |  qtype     = PTR
+   |  qclass    = IN
+  an        = None
+  \ns        \
+   |###[ DNS SOA Resource Record ]###
+   |  rrname    = '30.172.in-addr.arpa.'
+   |  type      = SOA
+   |  rclass    = IN
+   |  ttl       = 86400
+   |  rdlen     = None
+   |  mname     = 'localhost.'
+   |  rname     = 'root.localhost.'
+   |  serial    = 1997022700
+   |  refresh   = 28800
+   |  retry     = 14400
+   |  expire    = 3600000
+   |  minimum   = 86400
+  ar        = None
